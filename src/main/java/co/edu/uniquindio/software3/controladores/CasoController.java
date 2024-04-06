@@ -6,7 +6,7 @@ import co.edu.uniquindio.software3.servicios.interfaces.CasoServicio;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/caso")
+@RequestMapping("/casos")
 public class CasoController {
     private final CasoServicioIMPL casoServicio;
 
@@ -18,4 +18,8 @@ public class CasoController {
     public Caso obtenerCaso(@PathVariable("id") Integer id) throws Exception {
         return casoServicio.obtenerCaso(id);
     }
+
+
+
+
 }
