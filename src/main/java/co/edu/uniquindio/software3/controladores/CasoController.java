@@ -6,7 +6,7 @@ import co.edu.uniquindio.software3.servicios.interfaces.CasoServicio;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/casos")
+@RequestMapping("/caso")
 public class CasoController {
     private final CasoServicioIMPL casoServicio;
 
